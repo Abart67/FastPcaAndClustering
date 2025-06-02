@@ -252,7 +252,7 @@ with tabs[2]:
         "Choisissez la table à afficher :",
         options=[
             "VAR. Corrélations entre variables",
-            "VAR. Corrélations des variables avec les components principales",
+            "VAR. Corrélations des variables avec les composantes principales",
             "VAR. Contributions des variables actives à chaque composante",
             "IND. Coordonnées des individus",
             "IND. Contributions des individus à chaque composante",
