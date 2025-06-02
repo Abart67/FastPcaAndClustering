@@ -140,7 +140,7 @@ with st.sidebar.expander("Paramètres de l'ACP", expanded=True):
     clusters_n = st.slider("Nombre de clusters", 2, 10, 4)
 
 
-#with st.sidebar.expander("Filtre et affichage du biplot", expanded=False):
+with st.sidebar.expander("Paramètres d'affichage", expanded=False):
 
     # Sélection des components X et Y
     components = [f"PC{i+1}" for i in range(n_components)]
